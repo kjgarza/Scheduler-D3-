@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Pseudo Gantt Chart</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="d3.min.js"></script>
+    <script type="text/javascript" src="d3.time.min.js"></script>
+    <script type="text/javascript" src="d3.layout.min.js"></script>
+		<script type="text/javascript" src="schedule.js"></script>
+		<link href="schedule.css" type="text/css" rel="stylesheet">
+	<script>
+				window.onload = function () {
+					var params = { 
+						width:  799,
+						height: 222,
+						start:  new Date(2011, 2, 10),
+						end:    new Date(2011, 2, 20),
+						container: "schedule",
+						mode: true
+					}
+					var schedule = new Schedule(params);
+					schedule.draw();
+				}
+	</script>
+  </head>
+  <body>
+		<div class="schedule"></div>
+  </body>
+</html>
