@@ -1,0 +1,60 @@
+
+path.area {
+  fill: #000;
+  fill-opacity: .75;
+}
+
+g.axis, .grid {
+  shape-rendering: crispEdges;
+}
+
+g.grid line {
+  stroke: #000;
+}
+
+g.grid g line {
+	stroke-width:2;
+	stroke-opacity:1;
+  stroke: #000;
+}
+
+g.grid line.minor {
+  stroke-opacity: 1;
+}
+
+g.grid text {
+  display: none;
+}
+
+g.axis line {
+  stroke: #000;
+}
+
+g.x.axis line {
+  stroke-width: 0;
+}
+
+rect.ticket {
+  stroke: #93B736;
+  fill : #9DCE79;
+}
+
+rect.ticket_over {
+  stroke: #b61983;
+  stroke-width: 2px;
+  fill : #9dce79;
+}
+
+rect.constraint {
+  fill  : #D9D9D1;
+  fill-opacity: 0.8;
+}
+
+rect.progress {
+  fill  : #000;
+}
+
+
+g.grid path, .axis path {
+  display: none;
+}
