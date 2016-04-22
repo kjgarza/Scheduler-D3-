@@ -1,10 +1,11 @@
-Scheduler (pseudo-gantt) using D3
+# Scheduler (pseudo-gantt) using D3
 
 Generates a gant chart to which one can events and restrictions.
 
 
 Use case:
 
+```javascript
 window.onload = function () {
 	var params = { 
 		width:  799,
@@ -17,3 +18,4 @@ window.onload = function () {
 	var schedule = new Schedule(params);
 	schedule.draw();
 }
+```
