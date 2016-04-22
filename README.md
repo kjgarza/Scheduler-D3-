@@ -8,10 +8,10 @@ Use case:
 ```javascript
 window.onload = function () {
 	var params = { 
-		width:  799,
+		width: 799,
 		height: 222,
-		start:  new Date(2011, 2, 10),
-		end:    new Date(2011, 2, 20),
+		start: new Date(2011, 2, 10),
+		end: new Date(2011, 2, 20),
 		container: "schedule",
 		mode: true
 	}
